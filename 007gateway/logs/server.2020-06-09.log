@@ -1,0 +1,648 @@
+2020-06-09 15:11:44.769 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4ffa6b0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 15:11:44.950 [main] INFO  com.affaire.GatewayBoot -
+				No active profile set, falling back to default profiles: default
+2020-06-09 15:11:45.998 [main] INFO  o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=19ae4b69-8865-3ff3-bbd2-050cf26ea3d3
+2020-06-09 15:11:46.047 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'com.affaire.feign.ProviderFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 15:11:46.189 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4ffa6b0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 15:11:47.626 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [After]
+2020-06-09 15:11:47.627 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Before]
+2020-06-09 15:11:47.627 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Between]
+2020-06-09 15:11:47.627 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Cookie]
+2020-06-09 15:11:47.628 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Header]
+2020-06-09 15:11:47.628 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Host]
+2020-06-09 15:11:47.628 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Method]
+2020-06-09 15:11:47.628 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Path]
+2020-06-09 15:11:47.628 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Query]
+2020-06-09 15:11:47.629 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2020-06-09 15:11:47.629 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [RemoteAddr]
+2020-06-09 15:11:47.629 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Weight]
+2020-06-09 15:11:47.629 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2020-06-09 15:11:48.089 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisUtil': Unsatisfied dependency expressed through field 'redisTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [com/affaire/config/RedisConfig.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2020-06-09 15:11:48.160 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+				
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-09 15:11:48.421 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method redisTemplate in com.affaire.config.RedisConfig required a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' in your configuration.
+
+2020-06-09 15:16:14.038 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9fc1c6ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 15:16:14.222 [main] INFO  com.affaire.GatewayBoot -
+				No active profile set, falling back to default profiles: default
+2020-06-09 15:16:15.322 [main] INFO  o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=19ae4b69-8865-3ff3-bbd2-050cf26ea3d3
+2020-06-09 15:16:15.363 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'com.affaire.feign.ProviderFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 15:16:15.484 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9fc1c6ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 15:16:16.597 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [After]
+2020-06-09 15:16:16.597 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Before]
+2020-06-09 15:16:16.597 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Between]
+2020-06-09 15:16:16.598 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Cookie]
+2020-06-09 15:16:16.598 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Header]
+2020-06-09 15:16:16.598 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Host]
+2020-06-09 15:16:16.598 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Method]
+2020-06-09 15:16:16.599 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Path]
+2020-06-09 15:16:16.599 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Query]
+2020-06-09 15:16:16.599 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2020-06-09 15:16:16.599 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [RemoteAddr]
+2020-06-09 15:16:16.600 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Weight]
+2020-06-09 15:16:16.600 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2020-06-09 15:16:16.993 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisUtil': Unsatisfied dependency expressed through field 'redisTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [com/affaire/config/RedisConfig.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2020-06-09 15:16:17.045 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+				
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-09 15:16:17.312 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method redisTemplate in com.affaire.config.RedisConfig required a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' in your configuration.
+
+2020-06-09 15:18:30.455 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$82205fb3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 15:18:30.631 [main] INFO  com.affaire.GatewayBoot -
+				No active profile set, falling back to default profiles: default
+2020-06-09 15:18:31.727 [main] INFO  o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=19ae4b69-8865-3ff3-bbd2-050cf26ea3d3
+2020-06-09 15:18:31.765 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'com.affaire.feign.ProviderFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 15:18:31.893 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$82205fb3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 15:18:33.020 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [After]
+2020-06-09 15:18:33.020 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Before]
+2020-06-09 15:18:33.020 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Between]
+2020-06-09 15:18:33.021 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Cookie]
+2020-06-09 15:18:33.021 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Header]
+2020-06-09 15:18:33.021 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Host]
+2020-06-09 15:18:33.021 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Method]
+2020-06-09 15:18:33.022 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Path]
+2020-06-09 15:18:33.022 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Query]
+2020-06-09 15:18:33.022 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2020-06-09 15:18:33.023 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [RemoteAddr]
+2020-06-09 15:18:33.023 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [Weight]
+2020-06-09 15:18:33.023 [main] INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator -
+				Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2020-06-09 15:18:33.428 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisUtil': Unsatisfied dependency expressed through field 'redisTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [com/affaire/config/RedisConfig.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2020-06-09 15:18:33.480 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+				
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-09 15:18:33.721 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method redisTemplate in com.affaire.config.RedisConfig required a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' in your configuration.
+
+2020-06-09 15:23:57.866 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$53ace934] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 15:23:58.084 [main] INFO  com.affaire.GatewayBoot -
+				No active profile set, falling back to default profiles: default
+2020-06-09 15:23:59.331 [main] INFO  o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=6b8eb41c-bce0-3f5a-9d00-f93843491c5a
+2020-06-09 15:23:59.373 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'com.affaire.feign.ProviderFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 15:23:59.506 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$53ace934] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 15:23:59.935 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8090 (http)
+2020-06-09 15:23:59.966 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8090"]
+2020-06-09 15:23:59.990 [main] INFO  org.apache.catalina.core.StandardService -
+				Starting service [Tomcat]
+2020-06-09 15:23:59.991 [main] INFO  org.apache.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-06-09 15:24:00.343 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2020-06-09 15:24:00.343 [main] INFO  org.springframework.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 2229 ms
+2020-06-09 15:24:00.740 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisUtil': Unsatisfied dependency expressed through field 'redisTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [com/affaire/config/RedisConfig.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2020-06-09 15:24:00.746 [main] INFO  org.apache.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2020-06-09 15:24:00.771 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+				
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-09 15:24:01.007 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method redisTemplate in com.affaire.config.RedisConfig required a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' in your configuration.
+
+2020-06-09 15:29:37.385 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ea2645d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 15:29:37.583 [main] INFO  com.affaire.GatewayBoot -
+				No active profile set, falling back to default profiles: default
+2020-06-09 15:29:38.722 [main] INFO  o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=6b8eb41c-bce0-3f5a-9d00-f93843491c5a
+2020-06-09 15:29:38.762 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'com.affaire.feign.ProviderFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 15:29:38.910 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ea2645d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 15:29:39.366 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8090 (http)
+2020-06-09 15:29:39.397 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8090"]
+2020-06-09 15:29:39.419 [main] INFO  org.apache.catalina.core.StandardService -
+				Starting service [Tomcat]
+2020-06-09 15:29:39.420 [main] INFO  org.apache.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-06-09 15:29:39.797 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2020-06-09 15:29:39.797 [main] INFO  org.springframework.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 2186 ms
+2020-06-09 15:29:40.226 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisUtil': Unsatisfied dependency expressed through field 'redisTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [com/affaire/config/RedisConfig.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2020-06-09 15:29:40.231 [main] INFO  org.apache.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2020-06-09 15:29:40.252 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+				
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-09 15:29:40.475 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method redisTemplate in com.affaire.config.RedisConfig required a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' in your configuration.
+
+2020-06-09 15:30:59.046 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1302d59a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 15:30:59.217 [main] INFO  com.affaire.GatewayBoot -
+				No active profile set, falling back to default profiles: default
+2020-06-09 15:31:00.248 [main] INFO  o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=6b8eb41c-bce0-3f5a-9d00-f93843491c5a
+2020-06-09 15:31:00.287 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'com.affaire.feign.ProviderFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 15:31:00.423 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1302d59a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 15:31:00.810 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8090 (http)
+2020-06-09 15:31:00.834 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8090"]
+2020-06-09 15:31:00.851 [main] INFO  org.apache.catalina.core.StandardService -
+				Starting service [Tomcat]
+2020-06-09 15:31:00.852 [main] INFO  org.apache.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-06-09 15:31:01.075 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2020-06-09 15:31:01.076 [main] INFO  org.springframework.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 1835 ms
+2020-06-09 15:31:01.548 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisUtil': Unsatisfied dependency expressed through field 'redisTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [com/affaire/config/RedisConfig.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2020-06-09 15:31:01.552 [main] INFO  org.apache.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2020-06-09 15:31:01.572 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+				
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-09 15:31:01.791 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method redisTemplate in com.affaire.config.RedisConfig required a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' in your configuration.
+
+2020-06-09 16:24:53.635 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f618d112] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 16:24:53.791 [main] INFO  com.affaire.GatewayBoot -
+				No active profile set, falling back to default profiles: default
+2020-06-09 16:24:54.688 [main] INFO  o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=50378ca9-15a3-37c7-80f7-d945fc880a11
+2020-06-09 16:24:54.723 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'com.affaire.feign.ProviderFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 16:24:54.839 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f618d112] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 16:24:55.196 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8090 (http)
+2020-06-09 16:24:55.219 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8090"]
+2020-06-09 16:24:55.237 [main] INFO  org.apache.catalina.core.StandardService -
+				Starting service [Tomcat]
+2020-06-09 16:24:55.238 [main] INFO  org.apache.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-06-09 16:24:55.441 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2020-06-09 16:24:55.442 [main] INFO  org.springframework.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 1630 ms
+2020-06-09 16:24:56.089 [main] INFO  org.redisson.Version -
+				Redisson 3.11.2
+2020-06-09 16:24:56.506 [redisson-netty-2-16] INFO  o.r.connection.pool.MasterPubSubConnectionPool -
+				1 connections initialized for localhost/127.0.0.1:6379
+2020-06-09 16:24:56.507 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool -
+				24 connections initialized for localhost/127.0.0.1:6379
+2020-06-09 16:24:56.618 [main] WARN  com.netflix.config.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2020-06-09 16:24:56.618 [main] INFO  com.netflix.config.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-09 16:24:56.633 [main] WARN  com.netflix.config.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2020-06-09 16:24:56.633 [main] INFO  com.netflix.config.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-09 16:24:57.223 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-09 16:24:57.693 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler -
+				Initializing ExecutorService
+2020-06-09 16:24:57.956 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8090"]
+2020-06-09 16:24:57.996 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8090 (http) with context path ''
+2020-06-09 16:24:58.187 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry -
+				nacos registry, gateway-demo 192.168.31.168:8090 register finished
+2020-06-09 16:24:58.195 [main] INFO  com.affaire.GatewayBoot -
+				Started GatewayBoot in 5.571 seconds (JVM running for 6.16)
+2020-06-09 16:25:17.107 [http-nio-8090-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-09 16:25:17.107 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2020-06-09 16:25:17.115 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+				Completed initialization in 7 ms
+2020-06-09 16:25:17.681 [http-nio-8090-exec-1] INFO  com.netflix.config.ChainedDynamicProperty -
+				Flipping property: nacos-provider.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-06-09 16:25:17.729 [http-nio-8090-exec-1] INFO  com.netflix.loadbalancer.BaseLoadBalancer -
+				Client: nacos-provider instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nacos-provider,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-06-09 16:25:17.741 [http-nio-8090-exec-1] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer -
+				Using serverListUpdater PollingServerListUpdater
+2020-06-09 16:25:17.766 [http-nio-8090-exec-1] INFO  com.netflix.config.ChainedDynamicProperty -
+				Flipping property: nacos-provider.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-06-09 16:25:17.769 [http-nio-8090-exec-1] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer -
+				DynamicServerListLoadBalancer for client nacos-provider initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nacos-provider,current list of Servers=[192.168.31.168:8070],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.31.168:8070;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.alibaba.nacos.ribbon.NacosServerList@165dda03
+2020-06-09 16:25:18.746 [PollingServerListUpdater-0] INFO  com.netflix.config.ChainedDynamicProperty -
+				Flipping property: nacos-provider.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-06-09 16:25:27.209 [Thread-18] INFO  com.netflix.loadbalancer.PollingServerListUpdater -
+				Shutting down the Executor Pool for PollingServerListUpdater
+2020-06-09 16:25:27.213 [Thread-11] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry -
+				De-registering from Nacos Server now...
+2020-06-09 16:25:27.220 [Thread-11] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry -
+				De-registration finished.
+2020-06-09 16:25:27.222 [Thread-11] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-09 16:59:19.717 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4ad70946] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 16:59:19.899 [main] INFO  com.affaire.GatewayBoot -
+				No active profile set, falling back to default profiles: default
+2020-06-09 16:59:20.582 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -
+				Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-09 16:59:20.586 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-09 16:59:20.628 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2020-06-09 16:59:21.080 [main] INFO  o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=79c809a8-70c3-33e1-9c7f-0d2d57254abc
+2020-06-09 16:59:21.116 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'com.affaire.feign.ProviderFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 16:59:21.246 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4ad70946] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 16:59:21.655 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8090 (http)
+2020-06-09 16:59:21.682 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8090"]
+2020-06-09 16:59:21.704 [main] INFO  org.apache.catalina.core.StandardService -
+				Starting service [Tomcat]
+2020-06-09 16:59:21.705 [main] INFO  org.apache.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-06-09 16:59:22.044 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2020-06-09 16:59:22.045 [main] INFO  org.springframework.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 2120 ms
+2020-06-09 16:59:22.888 [main] INFO  org.redisson.Version -
+				Redisson 3.11.2
+2020-06-09 16:59:23.412 [redisson-netty-2-11] INFO  o.r.connection.pool.MasterPubSubConnectionPool -
+				1 connections initialized for localhost/127.0.0.1:6379
+2020-06-09 16:59:23.419 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool -
+				24 connections initialized for localhost/127.0.0.1:6379
+2020-06-09 16:59:23.538 [main] WARN  com.netflix.config.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2020-06-09 16:59:23.539 [main] INFO  com.netflix.config.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-09 16:59:23.554 [main] WARN  com.netflix.config.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2020-06-09 16:59:23.554 [main] INFO  com.netflix.config.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-09 16:59:24.243 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-09 16:59:24.925 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler -
+				Initializing ExecutorService
+2020-06-09 16:59:25.262 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8090"]
+2020-06-09 16:59:25.314 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8090 (http) with context path ''
+2020-06-09 16:59:25.511 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry -
+				nacos registry, gateway-demo 192.168.31.168:8090 register finished
+2020-06-09 16:59:25.519 [main] INFO  com.affaire.GatewayBoot -
+				Started GatewayBoot in 6.874 seconds (JVM running for 7.587)
+2020-06-09 16:59:44.241 [http-nio-8090-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-09 16:59:44.241 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2020-06-09 16:59:44.250 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+				Completed initialization in 9 ms
+2020-06-09 17:00:03.598 [http-nio-8090-exec-3] INFO  com.netflix.config.ChainedDynamicProperty -
+				Flipping property: nacos-provider.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-06-09 17:00:03.660 [http-nio-8090-exec-3] INFO  com.netflix.loadbalancer.BaseLoadBalancer -
+				Client: nacos-provider instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nacos-provider,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-06-09 17:00:03.670 [http-nio-8090-exec-3] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer -
+				Using serverListUpdater PollingServerListUpdater
+2020-06-09 17:00:03.681 [http-nio-8090-exec-3] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer -
+				DynamicServerListLoadBalancer for client nacos-provider initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nacos-provider,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.alibaba.nacos.ribbon.NacosServerList@5f3d330a
+2020-06-09 17:00:03.792 [http-nio-8090-exec-3] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] -
+				Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: nacos-provider] with root cause
+com.netflix.client.ClientException: Load balancer does not have available server for client: nacos-provider
+	at com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:483)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)
+	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)
+	at rx.Subscriber.setProducer(Subscriber.java:209)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10423)
+	at rx.Observable.subscribe(Observable.java:10390)
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:443)
+	at rx.observables.BlockingObservable.single(BlockingObservable.java:340)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)
+	at org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:83)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:110)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:80)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:103)
+	at com.sun.proxy.$Proxy81.hello(Unknown Source)
+	at com.affaire.controller.OpenFeignController.hi(OpenFeignController.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:798)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-09 17:00:24.870 [Thread-17] INFO  com.netflix.loadbalancer.PollingServerListUpdater -
+				Shutting down the Executor Pool for PollingServerListUpdater
+2020-06-09 17:00:24.873 [Thread-11] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry -
+				De-registering from Nacos Server now...
+2020-06-09 17:00:24.880 [Thread-11] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry -
+				De-registration finished.
+2020-06-09 17:00:24.882 [Thread-11] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-09 17:53:57.157 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$167269fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 17:53:57.365 [main] INFO  com.affaire.GatewayBoot -
+				No active profile set, falling back to default profiles: default
+2020-06-09 17:53:58.577 [main] INFO  o.springframework.cloud.context.scope.GenericScope -
+				BeanFactory id=8a4a6f64-0d8f-3c31-9e63-2da176bc20fe
+2020-06-09 17:53:58.618 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'com.affaire.feign.ProviderFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 17:53:58.748 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$167269fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-09 17:53:59.180 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8090 (http)
+2020-06-09 17:53:59.211 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8090"]
+2020-06-09 17:53:59.234 [main] INFO  org.apache.catalina.core.StandardService -
+				Starting service [Tomcat]
+2020-06-09 17:53:59.235 [main] INFO  org.apache.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-06-09 17:53:59.511 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2020-06-09 17:53:59.512 [main] INFO  org.springframework.web.context.ContextLoader -
+				Root WebApplicationContext: initialization completed in 2120 ms
+2020-06-09 17:54:00.251 [main] INFO  org.redisson.Version -
+				Redisson 3.11.2
+2020-06-09 17:54:00.719 [redisson-netty-2-11] INFO  o.r.connection.pool.MasterPubSubConnectionPool -
+				1 connections initialized for localhost/127.0.0.1:6379
+2020-06-09 17:54:00.725 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool -
+				24 connections initialized for localhost/127.0.0.1:6379
+2020-06-09 17:54:00.808 [main] WARN  com.netflix.config.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2020-06-09 17:54:00.809 [main] INFO  com.netflix.config.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-09 17:54:00.819 [main] WARN  com.netflix.config.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2020-06-09 17:54:00.819 [main] INFO  com.netflix.config.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-09 17:54:01.509 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-09 17:54:02.039 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler -
+				Initializing ExecutorService
+2020-06-09 17:54:02.330 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8090"]
+2020-06-09 17:54:02.376 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8090 (http) with context path ''
+2020-06-09 17:54:02.596 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry -
+				nacos registry, gateway-demo 192.168.31.168:8090 register finished
+2020-06-09 17:54:02.605 [main] INFO  com.affaire.GatewayBoot -
+				Started GatewayBoot in 6.473 seconds (JVM running for 7.117)
+2020-06-09 17:54:08.244 [http-nio-8090-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-09 17:54:08.245 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2020-06-09 17:54:08.258 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+				Completed initialization in 13 ms
+2020-06-09 17:54:09.156 [http-nio-8090-exec-1] INFO  com.netflix.config.ChainedDynamicProperty -
+				Flipping property: nacos-provider.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-06-09 17:54:09.245 [http-nio-8090-exec-1] INFO  com.netflix.loadbalancer.BaseLoadBalancer -
+				Client: nacos-provider instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nacos-provider,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-06-09 17:54:09.264 [http-nio-8090-exec-1] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer -
+				Using serverListUpdater PollingServerListUpdater
+2020-06-09 17:54:09.318 [http-nio-8090-exec-1] INFO  com.netflix.config.ChainedDynamicProperty -
+				Flipping property: nacos-provider.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-06-09 17:54:09.323 [http-nio-8090-exec-1] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer -
+				DynamicServerListLoadBalancer for client nacos-provider initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nacos-provider,current list of Servers=[192.168.31.168:8070],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.31.168:8070;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.alibaba.nacos.ribbon.NacosServerList@14007f4b
+2020-06-09 17:54:10.273 [PollingServerListUpdater-0] INFO  com.netflix.config.ChainedDynamicProperty -
+				Flipping property: nacos-provider.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-06-09 17:55:18.780 [Thread-16] INFO  com.netflix.loadbalancer.PollingServerListUpdater -
+				Shutting down the Executor Pool for PollingServerListUpdater
+2020-06-09 17:55:18.782 [Thread-11] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry -
+				De-registering from Nacos Server now...
+2020-06-09 17:55:18.793 [Thread-11] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry -
+				De-registration finished.
+2020-06-09 17:55:18.795 [Thread-11] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -
+				Shutting down ExecutorService 'applicationTaskExecutor'
