@@ -1,6 +1,6 @@
 1.工程采用springcloud重构
 springboot版本位2.1.14.RELEASE   springcloud版本为 Greenwich.SR4
-2.001common放置系统通用的代码，如avatar大数据平台提供的接口
+2.001common放置系统通用的代码，如大数据平台提供的接口
 3.002api抽象工程通用的接口、抽象类
 4.003utils封装工程开发中抽出来的公共代码，工具类
 5.004provider实现微服务的服务提供接口
